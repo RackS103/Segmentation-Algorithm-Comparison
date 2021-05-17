@@ -1,0 +1,23 @@
+EQUAL-LENGTH STATISTICS
+TP equal domain: 18078
+FP equal domain: 28865
+FN equal domain: 15622
+Sensitivity: 0.53644
+Precision(PPV): 0.38511
+Jaccard Index: 0.28895
+
+VARIABLE-LENGTH STATISTICS
+TP equal domain: 8957
+FP equal domain: 26827
+FN equal domain: 8043
+Sensitivity: 0.52688
+Precision(PPV): 0.25031
+Jaccard Index: 0.20437
+
+OVERALL STATISTICS
+TP: 27035
+FP: 55692
+FN: 23665
+Sensitivity: 0.53323
+Precision(PPV): 0.3268
+Jaccard Index: 0.25411
