@@ -1,6 +1,8 @@
 #  A Comparison of two Compositional Segmentation Algorithms for Genomic Sequences
 Rac Mukkamala, May 2021
 
+[Link to Paper](https://github.com/RackS103/Segmentation-Algorithm-Comparison/blob/main/docs/Comparison%20of%20two%20Compositional%20Segmentation%20Algorithms.pdf)
+
 ## Abstract
 Of the various segmentation algorithms created to predict the locations of compositionally homogeneous domains within genomic sequences, two of the most widely used algorithms are IsoPlotter (Elhaik et al. 2010b) and IsoSegmenter (Cozzi et al. 2015). However, these two algorithms yield significantly different predictions, and no study to date has thoroughly examined their differences. Here, I present a detailed comparison of the IsoPlotter and IsoSegmenter algorithms, using a library of simulated random genomic sequences as a benchmark to test algorithm performance and accuracy. Each simulated genomic sequence consisted of multiple simulated compositional domains which were assigned distinct guanine-cytosine (GC) percentages based on the isochore families model (Bernardi 2000). Of the 2,000 simulated sequences generated in this study, 1,100 consisted of domains assigned equal lengths, and the other 900 sequences contained domains assigned variable lengths based on a power-law distribution. My results show that IsoPlotter significantly outperforms IsoSegmenter under a variety of test scenarios, and that IsoSegmenter consistently predicts the existence of large (>200,000bp) domains regardless of underlying genomic architecture. However, there is room for both algorithms to be improved upon, such as IsoPlotter’s tendency to underpredict compositional domain sizes.
 
